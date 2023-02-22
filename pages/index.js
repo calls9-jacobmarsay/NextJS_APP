@@ -1,6 +1,11 @@
+import { Fragment } from "react";
+import Link from "next/link";
 const HomePage = () => {
     return(
-        <h1>The Home Page</h1>
+        <Fragment>
+            <h1>The Home Page</h1>
+            <Link href="/news">News</Link>
+        </Fragment>
     );
 }
 
